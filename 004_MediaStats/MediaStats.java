@@ -10,8 +10,6 @@ public class MediaStats
         int c= 2005;
         System.out.println("Harry Potter and the Sorcerer's Stone was released on " + a + " and is " + x + " minutes long." );
         System.out.println( "Harry Potter and the Chamber of Secrets was released on " + b + " and is " + y + " minutes long.");
-        System.out.println("Harry Potter and the Prizoner of Azkaban was released on  ")
-}
-
-
+        System.out.println("Harry Potter and the Prizoner of Azkaban was released on  " + c + " and is " + z + " minutes long.");
+    }
 }
