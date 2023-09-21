@@ -11,6 +11,7 @@ public class TemperatureFlux
       System.out.println(" Today's Low:" + lowTemp);
       System.out.println( " Today's Difference in Temps:" + differenceTemp);
       //This was about using and defining integer names.
+      //hi
     }
 
 
