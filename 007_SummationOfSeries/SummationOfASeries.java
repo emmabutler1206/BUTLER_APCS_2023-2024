@@ -1,4 +1,4 @@
-public class SummationOfASeries
+    public class SummationOfASeries
 {
     public static void main(String[] args)
     { 
@@ -14,7 +14,7 @@ public class SummationOfASeries
 
         int sumOfNumber= variableOne + variableTwo + variableThree + variableFour + variableFive + variableSix + variableSeven + variableEight + variableNine;
         System.out.println(sumOfNumber);
-
+    //Used different variable names
     }
 
 }
