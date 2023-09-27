@@ -9,7 +9,7 @@ public class ComputeAnExpression
       double b= 3.5;
       int c= 3;
         
-      System.out.println((double)(x*y-          z*c)/(a-b));
+      System.out.println((double)(x*y-z*c)/(a-b));
       //Practiced using doubles
     }
   

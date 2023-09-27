@@ -80,22 +80,7 @@ public class RefactorATableOfVariables
 
 
 
-
-
-
-
-
-
-
-
-
-
         
-        
-        
-        
-        
-        
-        ")
+        )
         }
 }
