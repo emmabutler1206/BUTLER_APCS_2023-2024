@@ -19,6 +19,7 @@
     System.out.println("The population of year three is " + populationYearThree + " people");
     System.out.println("The population of year four is " + populationYearFour + " people");
     System.out.println("The population of year five is " + populationYearFive + " people" );
+    //Used equations that built off of each other.
     // Every four years, a leap year occurs. It adds an extra day onto the year. This knowlege can throw off the accuracy of the data.
     }
 }
