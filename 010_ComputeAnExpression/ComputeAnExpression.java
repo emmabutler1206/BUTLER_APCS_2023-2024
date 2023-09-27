@@ -10,7 +10,9 @@ public class ComputeAnExpression
       int c= 3;
         
       System.out.println((double)(x*y-z*c)/(a-b));
-      //Practiced using doubles
+
+      //Practiced using doubles and casting variables as a cast.
+
     }
   
     

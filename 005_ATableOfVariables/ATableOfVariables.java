@@ -1,4 +1,4 @@
-public class ATableOfVariables
+  public class ATableOfVariables
 {
   public static void main(String[] args)
     {
