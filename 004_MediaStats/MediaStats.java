@@ -13,3 +13,12 @@ public class MediaStats
         System.out.println("Harry Potter and the Prizoner of Azkaban was released on  " + c + " and is " + z + " minutes long.");
     }
 }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

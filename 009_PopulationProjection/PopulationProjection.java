@@ -23,3 +23,12 @@
     // Every four years, a leap year occurs. It adds an extra day onto the year. This knowlege can throw off the accuracy of the data.
     }
 }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
