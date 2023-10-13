@@ -26,3 +26,12 @@ public class AreaOfRectangles
         //Used doubles and integers withing equatyions. Matched up certain castings.
     }
   }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
