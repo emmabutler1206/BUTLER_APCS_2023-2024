@@ -21,12 +21,7 @@ public class CarBuilderOne
         mileage = scan.nextInt();
         System.out.println(" There is one car that matches your specification" + model + " " + make);
         scan.close();
-
         Car foo = new Car(year, mileage, make, model);
         // Used Scanner to allow user to imput characteristics of a car, and used a method to create a car.
-       
-      
-        
-
     }
 }

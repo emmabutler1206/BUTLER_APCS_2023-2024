@@ -4,7 +4,6 @@ public class LoanCalculator
     public static void main(String[] args)
     {
     Scanner scan = new Scanner(System.in);
-
     double principalBalance = 0.0;
     double annualInterestRate = 0.0;
     double remainingMonths = 0.0; 
@@ -19,12 +18,6 @@ public class LoanCalculator
     double monthlyPayment = (principalBalance/remainingMonths) + monthlyInterest;
     System.out.println(" Your monthy interest is " + monthlyInterest + " dollars" + ". Your monthy payments are " + monthlyPayment + " dollars. ");
     scan.close();
-// assigned doubles within the scanner to comlpete the assignment 
-
-
-
-
-
-
+    // assigned doubles within the scanner to comlpete the assignment 
     }
 }
