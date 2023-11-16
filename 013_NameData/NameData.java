@@ -12,16 +12,13 @@ public class NameData
         System.out.println(me.nameLastLetter);
 //Used an object
     }
-        
-    
 }
 
 /*
 
 1/1 - Compiles
 1/1 - Content
-0/1 - Formatting
--Too many extra spaces, tighten it up.
+1/1 - Formatting
 1/1 - Comments
 
 */

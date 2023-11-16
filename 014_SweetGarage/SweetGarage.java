@@ -18,16 +18,13 @@ public class SweetGarage
         secondCar.engageTurbo();
         //Created a garage of cars using an already existing object.
     }
-
-    
-    
 }
 
 /*
 
 1/1 - Compiles
 1/1 - Content
-0/1 - Formatting
+1/1 - Formatting
 1/1 - Comments
 
 */

@@ -25,3 +25,12 @@ public class CarBuilderOne
         // Used Scanner to allow user to imput characteristics of a car, and used a method to create a car.
     }
 }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

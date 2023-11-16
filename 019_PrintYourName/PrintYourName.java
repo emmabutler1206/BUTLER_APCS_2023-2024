@@ -16,3 +16,12 @@ public class PrintYourName
         // Used scanner class to create a new scanner method
     }
 }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

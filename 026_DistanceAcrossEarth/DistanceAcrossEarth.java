@@ -27,3 +27,12 @@ public class DistanceAcrossEarth
    // Used Scanner and Math objects to determine distance between two points
     }
 }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

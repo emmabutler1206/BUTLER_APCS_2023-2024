@@ -50,3 +50,12 @@ public class TableTopDice
         // Used the random method to limit the number value a dice can roll to 
     }
 }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
