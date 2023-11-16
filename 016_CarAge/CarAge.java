@@ -21,10 +21,14 @@ public class CarAge
       System.out.println( "The age of the Corvette is " + currentAgeCorvette);
       System.out.println( "The age of the Honda Accord is " + currentAgeHondaAccord);
       // Practiced using methods within a class to calculate age of the cars
-      
-      
-
-
-
     }
 }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

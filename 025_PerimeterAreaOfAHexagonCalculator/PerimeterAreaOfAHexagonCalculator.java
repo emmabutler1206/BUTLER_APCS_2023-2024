@@ -14,3 +14,12 @@ public class PerimeterAreaOfAHexagonCalculator
     // USED SCANNER AND JAVA MATH OBJECTS TO FIND PERIMETER AND AREA BASED ON THE USERS GIVEN NUMBER  
     }
 }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

@@ -24,3 +24,13 @@ public class YetAgainATableOfVariables
             //Used the math object to perform integer operators
     }
 }
+
+/*
+
+1/1 - Compiles
+0/1 - Content
+-You were supposed to accept an integer from the user.
+1/1 - Formatting
+1/1 - Comments
+
+*/
