@@ -11,3 +11,12 @@ public class SubstringPrinter
         // Put sentace into a string to be able to give substrings based on the index given
     }
 }
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
