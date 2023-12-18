@@ -33,3 +33,12 @@ public class VariousCounter
     }
 }
 //USED WHILE LOOPS TO PRINT OUT NUMBER SEQUENCES
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

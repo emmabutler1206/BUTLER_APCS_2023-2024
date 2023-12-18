@@ -73,3 +73,12 @@ public class SeventeenMoreOrLess
     }
 }
 // Used Or statements to take imputs from user, and generate the correct repsonse back
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
