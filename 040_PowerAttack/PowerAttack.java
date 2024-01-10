@@ -38,3 +38,12 @@ public class PowerAttack
     }
 }
 // Used while loops to create a simulated video game
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
