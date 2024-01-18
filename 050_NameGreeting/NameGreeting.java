@@ -17,3 +17,11 @@ public class NameGreeting
   }
   
 // Created a method and was able to utilize it to print out the user's name.
+
+/*
+
+3/3 - Compile/Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

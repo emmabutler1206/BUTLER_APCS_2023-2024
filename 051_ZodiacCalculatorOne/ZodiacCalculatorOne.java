@@ -78,3 +78,11 @@ public class ZodiacCalculatorOne {
 
 }
 //Created a class that tells the user their zodiac sign based on their birth year.
+
+/*
+
+3/3 - Compile/Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
