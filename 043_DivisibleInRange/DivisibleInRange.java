@@ -32,3 +32,12 @@ public class DivisibleInRange
   }
 }
 // Used a for loop and if statements to list and name numbers in a range that are divisble by a certain number.
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

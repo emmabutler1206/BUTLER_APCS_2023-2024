@@ -36,3 +36,12 @@ public class DoubloonWords
     }
   }
   // created a program that tells the user if their word is a doubloon word.
+
+  /*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

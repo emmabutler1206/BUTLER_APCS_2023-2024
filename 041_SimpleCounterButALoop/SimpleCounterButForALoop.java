@@ -24,3 +24,12 @@ public class SimpleCounterButForALoop
     }
 }
 // USED FOR LOOPS TO COUNT UP AND DOWN 
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

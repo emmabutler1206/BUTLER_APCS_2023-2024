@@ -34,3 +34,12 @@ public class BasicNestedPractice
     }
   }
    //Used a nested for statement to execute printing a character.
+
+   /*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

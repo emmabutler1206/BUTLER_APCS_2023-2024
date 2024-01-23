@@ -32,3 +32,12 @@ public class SpellingBeeSimulator
       // Used a while statement on strings and was able to spell out a user's word.
     }
   }
+
+  /*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

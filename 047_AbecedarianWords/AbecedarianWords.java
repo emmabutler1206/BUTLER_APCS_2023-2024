@@ -33,3 +33,12 @@ public class AbecedarianWords
     }
   }
 // Used a charAt(); method to determine if a word is abcedarian.
+
+/*
+
+1/1 - Compiles
+1/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/

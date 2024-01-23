@@ -7,8 +7,19 @@ public class LoopYourName
     while (x < name.length()) 
     {
       System.out.println(name.substring(x, x + 1));
-      System.out.print()
+      System.out.print();
       x++;
     }
   }
 }
+
+/*
+
+Doesn't compile.
+
+0/1 - Compiles
+0/1 - Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
