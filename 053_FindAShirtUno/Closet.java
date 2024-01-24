@@ -7,7 +7,7 @@ public class Closet
     myShirt.selfDescription();
     myShirt.fold();
     myShirt.cleanStatus();
-    //Calls the methods for thr shirt
+    //Calls the methods for thr shirt.
   }
 }
 
