@@ -9,4 +9,4 @@ public class Hand{
         pen.inkRemaining();
     }
 }
-// In pen, used four methods and 4 static variables to create a class that can describe an object.
+// In pen, used four methods and 4 static variables to create a description of an object.

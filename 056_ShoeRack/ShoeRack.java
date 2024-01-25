@@ -1,0 +1,30 @@
+public class ShoeRack{
+public static void main(String[] args)
+{
+    Shoes shoeThree = new Shoes();
+    Shoes shoeTwo = new Shoes();
+    Shoes shoeOne = new Shoes();
+
+
+
+
+    shoeOne.shoeBrand = "Nike";
+    shoeOne.size = "11";
+    shoeOne.color = "red";
+    shoeOne.staticPrintShoe();
+
+
+    shoeTwo.shoeBrand = "Versace heels";
+    shoeTwo.size = "7";
+    shoeTwo.color ="black";
+    shoeTwo.staticPrintShoe();
+
+    shoeThree.shoeBrand = "gucci flats";
+    shoeThree.size = "10";
+    shoeThree.color ="beige";
+    shoeThree.staticPrintShoe();
+
+
+    }
+} 
+
