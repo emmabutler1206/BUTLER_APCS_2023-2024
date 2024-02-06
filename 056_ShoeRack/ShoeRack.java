@@ -14,12 +14,12 @@ public static void main(String[] args)
     shoeOne.staticPrintShoe();
 
 
-    shoeTwo.shoeBrand = "Versace heels";
+    shoeTwo.shoeBrand = "Versace heel";
     shoeTwo.size = "7";
     shoeTwo.color ="black";
     shoeTwo.staticPrintShoe();
 
-    shoeThree.shoeBrand = "gucci flats";
+    shoeThree.shoeBrand = "gucci flat";
     shoeThree.size = "10";
     shoeThree.color ="beige";
     shoeThree.staticPrintShoe();

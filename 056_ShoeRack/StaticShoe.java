@@ -10,6 +10,6 @@ public static void main(String[] args){}
 
 public static void staticPrintShoe()
     {
-    System.out.println("The shoes is a size " + size + " " +  color + " " + shoeBrand);
+    System.out.println("The shoe is a size " + size + " " +  color + " " + shoeBrand);
     }
 }
