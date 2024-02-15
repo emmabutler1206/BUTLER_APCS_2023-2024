@@ -20,10 +20,10 @@ public class ChargingCable
         }
         else
         {
-            System.out.println("You cannot charge this device")
+            System.out.println("You cannot charge this device");
         }
     }
-    // getters 
+    // getters used to get variables that return the same value
     public String getBrand()
     {
         return brand;
@@ -37,3 +37,4 @@ public class ChargingCable
         return connectionType;
     }
 }
+// class that describes methods of the charging cable and the action it does.
