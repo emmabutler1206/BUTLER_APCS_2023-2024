@@ -1,39 +1,40 @@
-public class ChargingCable {
-  private String brand;
-  private double length;
-  private String connectionType;
+public class ChargingCable
+{
+    private String brand;
+    public double length;
+    private String connectionType;
 
-  // Im assuming that this is the constructor, but I could be wrong
-  public ChargingCable(String brand, double length, String connectionType) {
-    this.brand = brand;
-    this.length = length;
-    this.connectionType = connectionType;
-  }
-
-  public void Charging(String connectionType)
+    public ChargingCable(String brand, double length, String connectionType)
     {
-      if(connectionType.equals(this.connectionType))
-         {
-          System.out.println("You can charge your device");
+        this.brand= brand;
+        this.length= length;
+        this.connectionType = connectionType;
+    }
+    public static void main(String[] args){}
+
+    public void charging(String connectionType, String connectionTypeIpad)
+    {
+        if (connectionTypeIpad.equals(connectionType))
+        {
+            System.out.println("Your device is now charging");
         }
         else
         {
-          System.out.println("You cannot charge your device");
+            System.out.println("You cannot charge this device");
         }
-        }
-    
-
-  // We need these getters to acess private varaibles in the class, so that the user sees the connection type. 
-  public String getBrand() {
-    return brand;
-  }
-
-  public double getLength() {
-    return length;
-  }
-
-  public String getConnectionType() {
-    return connectionType;
     }
-  public static void main(String[] args){}
+    // getters used to get variables that return the same value
+    public String getBrand()
+    {
+        return brand;
+    }
+    public double getLength()
+    {
+        return length;
+    }
+    public String getconnnectionType()
+    {
+        return connectionType;
+    }
 }
+// class that describes methods of the charging cable and the action it does.

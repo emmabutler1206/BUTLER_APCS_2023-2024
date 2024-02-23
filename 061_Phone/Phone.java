@@ -1,7 +1,7 @@
 public class Phone{
 
     private boolean isOn;
-    private String connectionTypeIpad;
+    private String connectionTypeIphone;
     private double currentCharge;
     private String phoneType;
     private String color;
@@ -10,10 +10,10 @@ public class Phone{
 
 
 
-public Phone(boolean isOn, String connectionTypeIpad, double currentCharge, String phoneType, String color, String phoneBrand)
+public Phone(boolean isOn, String connectionTypeIphone, double currentCharge, String phoneType, String color, String phoneBrand)
 {
     this.isOn = isOn;
-    this.connectionTypeIpad= connectionTypeIpad;
+    this.connectionTypeIphone= connectionTypeIphone;
     this.currentCharge = currentCharge;
     this.phoneType = phoneType;
     this.color = color;
@@ -23,7 +23,7 @@ public Phone(boolean isOn, String connectionTypeIpad, double currentCharge, Stri
 public Phone()
 {
     isOn = true;
-    connectionTypeIpad = "Lightning";
+    connectionTypeIphone = "Lightning";
     currentCharge= 89.0;
     phoneType= "13 Pro-Max";
     color = "green";
