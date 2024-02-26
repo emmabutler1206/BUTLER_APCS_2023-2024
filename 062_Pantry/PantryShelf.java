@@ -6,9 +6,10 @@ public class PantryShelf
         apple.FoodDescription();
         apple.PantryInfo();
         apple.ImHungry();
-        apple.setnumOfFood(3);
+        apple.setnumOfApples(10);
         apple.getnumOfFood();
         apple.ImHungry();
+        
         FoodItem bananna = new FoodItem(2, "yellow", "sweet", true, "bananna");
         bananna.FoodDescription();
         bananna.PantryInfo();
