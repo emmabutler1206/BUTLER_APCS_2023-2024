@@ -5,5 +5,13 @@ public class FavoriteBooks{
     String[] favBooks = new String[] {"Harry Potter", "A Court of Thorns and Roses", "A Winter's Promise"};
     System.out.println("My favorite books are:" + favBooks[0] + "," + favBooks[1] + "," + favBooks[2] );
   }
-  }
- 
+}
+
+
+/*
+
+3/3 - Compile/Content
+1/1 - Formatting
+1/1 - Comments
+
+*/
