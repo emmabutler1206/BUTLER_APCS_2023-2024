@@ -1,11 +1,9 @@
-public class FavoriteNumbers {
+public class FavoriteNumbers{
   public static void main(String[] args)
   {
-   int[] number = {111,333,1222};
-  // Used an int array to store the favorite numbers(ints.
-    System.out.println("I find myself drawn to these number");
-    for (int favoriteNumber : number) {
-      System.out.println(favoriteNumber);
-    }
+  
+    // Used an array with "Favorite Numbers' using an initializer list.
+    String[] favNumbers= new String[] {"333", "111", "1222"};
+    System.out.println("My favorite books are:" + favNumbers[0] + "," + favNumbers[1] + "," + favNumbers[2] );
   }
-  }
+}

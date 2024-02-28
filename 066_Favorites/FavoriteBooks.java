@@ -1,14 +1,9 @@
-public class FavoriteBooks {
-    public static void main(String[] args) {
-    String[] books = new String[] { "Harry Potter", "A Winter's Promise", "A Court of Thrones and Roses" };
-
-    System.out.println("my favorite books are:");
-    for (String book : books) {
-      System.out.println(book);
-    }
-  
-
-
-
+public class FavoriteBooks{
+  public static void main(String[] args)
+  {
+    // Used an array with "Favorite Books' using an initializer list.
+    String[] favBooks = new String[] {"Harry Potter", "A Court of Thorns and Roses", "A Winter's Promise"};
+    System.out.println("My favorite books are:" + favBooks[0] + "," + favBooks[1] + "," + favBooks[2] );
   }
-}
+  }
+ 

@@ -1,14 +1,9 @@
-public class FavoriteTVShows {
-public static void main(String[] args)
-{
- String[] tvShows = new String[] {"Naruto", "Jujutsu Kaisen", "Mashle"};
-  // Used a string array to store the titles of the tv shows.
-
-    System.out.println("My favorite TV shows to watch are:");
-    for (String favShows : tvShows) {
-      System.out.println(favShows);
-    }
+public class FavoriteTVShows{
+  public static void main(String[] args)
+  {
+  
+    // Used an array with "Favorite TV Shows' using an initializer list.
+    String[] favTv= new String[] {"Naruto", "Jujutsu Kaisen", "Mashle"};
+    System.out.println("My favorite books are:" + favTv[0] + "," + favTv[1] + "," + favTv[2] );
   }
 }
-
- 

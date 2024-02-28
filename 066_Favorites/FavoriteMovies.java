@@ -1,21 +1,14 @@
-public class FavoriteMovies {
+public class FavoriteMovies
+{
   public static void main(String[] args)
+  // Put string movies into an array
   {
-  // Used a string array to store the titles of the movies(That are strings).
- String[] movie = new String[] {"Harry Potter and the Sourceror's Stone", "Star Wars: The Last Jedi", "Tron"};
+    String[] favMovies = new String[3];
 
-    System.out.println("My favorite movies to watch are:");
-    for (String favMovie : movie) {
-      System.out.println(favMovie);
-    }
+    favMovies[0]= "Harry Potter";
+    favMovies[1]="Star Wars";
+    favMovies[2]= "Mirror Mirror";
+
+    System.out.println("My favorite movies are:" + favMovies[0] + "," + favMovies[1] + "," + favMovies[2]);
   }
 }
-
-/*
-
-0/3 - Compile/Content
--These seem like they're in process. Make me regrade them when they're done.
-1/1 - Formatting
-1/1 - Comments
-
-*/
