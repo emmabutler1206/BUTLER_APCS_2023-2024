@@ -1,4 +1,4 @@
-public class IPad{
+public class Ipad{
 
     private boolean isOn;
     private String connectionTypeIphone;
@@ -10,7 +10,7 @@ public class IPad{
 
 
 
-public IPad(boolean isOn, String connectionTypeIphone, double currentCharge, String ipadType, String color, String phoneBrand)
+public Ipad(boolean isOn, String connectionTypeIphone, double currentCharge, String ipadType, String color, String phoneBrand)
 {
     this.isOn = isOn;
     this.connectionTypeIphone= connectionTypeIphone;
@@ -20,7 +20,7 @@ public IPad(boolean isOn, String connectionTypeIphone, double currentCharge, Str
     this.phoneBrand= phoneBrand;
 }
 
-public IPad()
+public Ipad()
 {
     isOn = true;
     connectionTypeIphone = "Lightning";

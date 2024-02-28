@@ -1,7 +1,7 @@
 public class Hands{
     public static void main(String[] args)
     {
-        IPad iPad = new IPad(true,"lightning",67.0,"12 Pro",  "green", "Apple");
+        Ipad iPad = new Ipad(true,"lightning",67.0,"12 Pro",  "green", "Apple");
         iPad.OnOrOff();
         iPad.description();
         iPad.facetimeMom();
@@ -11,3 +11,12 @@ public class Hands{
 
     }
 }
+
+/*
+
+2/3 - Compile/Content
+-There were some naming issue with your iPad class (IPad vs Ipad) that I fixed to check this. 
+1/1 - Formatting
+1/1 - Comments
+
+*/

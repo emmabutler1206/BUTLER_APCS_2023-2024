@@ -28,3 +28,12 @@ public static void main (String[] args){
     }
 }
 // For ecah item, created a class variables that describes the object and description.
+
+/*
+
+2/3 - Compile/Content
+-Very close, but you should have printed all the items at the end so we can see the issue with the static overwriting.
+1/1 - Formatting
+1/1 - Comments
+
+*/
