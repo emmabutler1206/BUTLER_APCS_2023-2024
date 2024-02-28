@@ -15,3 +15,12 @@ public class FavoriteMovies {
     }
   }
 }
+
+/*
+
+0/3 - Compile/Content
+-These seem like they're in process. Make me regrade them when they're done.
+1/1 - Formatting
+1/1 - Comments
+
+*/
