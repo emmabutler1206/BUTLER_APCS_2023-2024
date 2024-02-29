@@ -8,7 +8,7 @@ public class GasPriceTracker {
     }
  
     public String getTypeOfGas() {
-        return this.typeOfGas;
+        return typeOfGas;
     }
  
     public void setTypeOfGas(String typeOfGas) {
@@ -16,7 +16,7 @@ public class GasPriceTracker {
     }
  
     public double getPriceOfGas() {
-        return this.priceOfGas;
+        return priceOfGas;
     }
  
     public void setPriceOfGas(double priceOfGas) {

@@ -7,10 +7,9 @@ public class Hero
     private int strength;
     private String magicType;
     private int randomAttack;
-    private int hit;
 
-
-    public Hero( String name, double health, double armourHealth, int strength, String magicType, int randomAttack, int hit)
+// Hero Class has methods and variables that describe the attributes of a hero.
+    public Hero( String name, double health, double armourHealth, int strength, String magicType)
     {
     this.name = name;
     this.health= health;
@@ -19,12 +18,11 @@ public class Hero
     this.magicType=magicType;
     this.randomAttack= randomAttack;
     this.randomAttack= randomAttack;
-    this.hit= hit;
     }
     
     public static void main(String[] args){}
-
-    public void Attack()
+// This is the Attack method. Only the hero attacks (Solid 3/5???)
+    public void Attack(int hit)
     {
           while (hit > 0) {
           
@@ -44,18 +42,17 @@ public class Hero
 
     }
     }
-
+// Tells us if the hero has won or lost based upon the cheers
     public void Cheer(int monsterHealth)
     {
-        if(monsterHealth=0)
+        if(monsterHealth==0)
         {
             System.out.println("yeessssss, I have won");
         }
-        else if(MonsterHealth>0 && health=0)
+        else if(monsterHealth>=0 && health== 0)
         {
             System.out.println("No, I have lossstttt");
         }
-        
     }
 }
 
