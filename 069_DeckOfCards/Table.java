@@ -1,46 +1,17 @@
-public class Table {
-  
-    {
-      // for hearts 
-      for (i=0;i<heart.size();i++)
-        {
-          for(i=0;i<value.size();j++)
-            {
-            System.out.println(heart[i]);
-            System.out.println(value[j]);
-          }
-    }
-      // for diamonds
-      for (i=0;i<diamond.size();i++) 
-        {
-          for(i=0;i<value.length;i++)
-            {
-            System.out.println(diamond[i]);
-            System.out.println(value[i]);
-          }
-
-          // for clubs
-          for (i=0;i<club.length;i++)
-            {
-              for(i=0;i<value.length;i++)
-                {
-                System.out.println(club[i]);
-                System.out.println(value[j]);
-                }
-
-              // for spades
-              for (i=0;i<spade.length;i++)
-                {
-                  for(i=0;i<value.length;j++)
-                    {
-                    System.out.println(spade[i]);
-                    System.out.println(value[i]);
-            }
-
-
-
-                }
-            }
-        }
-    }
+public class Table
+{
+  Deck deck = new Deck();
+  Card[] cardArray = deck.getCardArray();
+  public static void main(String[] args){
+    Table table = new Table();
+    table.printDeck(table.cardArray);
   }
+
+  // method to print the 52 cards listed in the array 
+
+  public void printDeck(Card[] arr)
+  {
+    for(Card card: arr)
+      System.out.println(card.toString());
+  }
+}

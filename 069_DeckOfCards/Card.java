@@ -1,11 +1,11 @@
 public class Card
 {
     String suit;
-    int value;
+    String value;
 
 
 
-    public Card(String suit, int value)
+    public Card(String suit, String value)
     {
         this.suit= suit;
         this.value=value;
@@ -15,10 +15,12 @@ public class Card
     {
         return suit;
     }
-    public int getValue()
+    public String getValue()
     {
         return value;
     }
+
+    
 
     public static void main(String[] args){}
     
