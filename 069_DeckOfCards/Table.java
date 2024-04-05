@@ -12,6 +12,6 @@ public class Table
   public void printDeck(Card[] arr)
   {
     for(Card card: arr)
-      System.out.println(card.toString());
+      System.out.println(card);
   }
 }

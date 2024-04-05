@@ -20,7 +20,10 @@ public class Card
         return value;
     }
 
-    
+    public String toString()
+    {
+        return value + " " +  suit;
+    }
 
     public static void main(String[] args){}
     
