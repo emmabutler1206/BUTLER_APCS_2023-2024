@@ -20,7 +20,7 @@ public class AverageDiceRolls {
             System.out.println("Would you like to roll the dice again?");
             if(userImput == "yes")
             {
-
+            foo.dice.getCurrentValue();
             }
             else if(userImput= "no")
             {
