@@ -1,7 +1,7 @@
 public class FavoriteMovies
 {
   public static void main(String[] args)
-  // Put string movies into an array
+  // Put (string) movies into an index value array.
   {
     String[] favMovies = new String[3];
 
