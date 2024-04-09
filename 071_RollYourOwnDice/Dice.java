@@ -1,25 +1,24 @@
 
 public class Dice {
 
-    public int value; 
+    public int currentValue; 
     public int numOfSides;
 
-// created through the constructor 
-    public Dice(int numOfSides)
+    // created through the constructor 
+    public Dice( int numOfSides)
     {
-        this.value= value;
-        this.numOfSides=numOfSides;
+    this.numOfSides = numOfSides;
+    Roll();
     }
-    // Will return the value of the roll to be used later in the array list 
     public int getCurrentValue()
     {
-        value = currentValue;
         return currentValue;
     }
-    // Able to return the number of sides that the dice has. 
-    public int getNumOfSides()
+    public void Roll()
     {
-        return numOfSides;
+      currentValue = (int)(Math.random()*numOfSides)+1;
     }
+    // Will return the value of the roll to be used later in the array list 
+   
     public static void main(String[] args){}
 }
