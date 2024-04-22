@@ -4,9 +4,12 @@ public class BinarySearch {
     public static void main(String[] args) {
       int[] array = { -8338, 9807, -4011, 5423, -4, 56, -990, 999 };
   
+      OneThousandSortedRandomNumbers hi = new OneThousandRandomlySortedNumbers();
       // Used to find target number
-      for (int num : oneThousandSortedRandomNumber) {
-        int resNum = binarySearch(array, num);
+  
+      for (int num : OneThousandRandomSortedNumbersgetSortedNumbers.getSortedNumbers()) {
+  
+        int resNum = hi.binarySearch(OneThousandRandomSortedNumbers.getSortedNumbers(), array);
         if (resNum == -1) {
           System.out.println("The number " + num + " was not found in the array");
         } else {
@@ -16,7 +19,7 @@ public class BinarySearch {
   
     }
   
-    public static int binarySearch(int[] array, int target)
+    public int binarySearch(int[] array, int target)
     {
       //definong endpoints in the serach.
       int left=0;
