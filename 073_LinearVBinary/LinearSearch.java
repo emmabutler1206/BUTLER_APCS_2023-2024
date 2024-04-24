@@ -17,7 +17,7 @@
             if (num == 0) {
               System.out.println("The number " + num + " was not found in the array");
             } else {
-              System.out.println("The number " + num + " was found at index in the array");
+              System.out.println("The number " + num + " was found at index" + + "in the array");
             }
           }
         }

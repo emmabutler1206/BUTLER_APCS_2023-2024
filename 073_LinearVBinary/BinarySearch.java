@@ -4,16 +4,17 @@ public class BinarySearch {
     public static void main(String[] args) {
       int[] array = { -8338, 9807, -4011, 5423, -4, 56, -990, 999 };
   
-      OneThousandSortedRandomNumbers hi = new OneThousandRandomlySortedNumbers();
+     OneThousandSortedRandomNumbers hi = new OneThousandSortedRandomNumbers();
+     BinarySearch hey = new BinarySearch();
       // Used to find target number
   
-      for (int num : OneThousandRandomSortedNumbersgetSortedNumbers.getSortedNumbers()) {
+      for (int num : hi.getSortedNumbers()) {
   
-        int resNum = hi.binarySearch(OneThousandRandomSortedNumbers.getSortedNumbers(), array);
+        int resNum = hey.binarySearch(hi.getSortedNumbers(), array );
         if (resNum == -1) {
-          System.out.println("The number " + num + " was not found in the array");
+          System.out.println("The number " + num + " was not found in" + resNum + " in the array");
         } else {
-          System.out.println("The target number " + target + " was found at index " + resNum);
+          System.out.println("The target number" + num + "was found at index " + resNum);
         }
       }
   
@@ -27,8 +28,10 @@ public class BinarySearch {
   
   
   // using a while loop to define hoe the program will loop through the array
+  
       while(left<=right)
         {
+         
           //defininh middle array
           int middleTerm= left+(right-left)/2;
   
@@ -44,5 +47,6 @@ public class BinarySearch {
             return left;
           }
         }
+        return -1;
     }
   }
