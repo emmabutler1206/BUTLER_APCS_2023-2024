@@ -8,9 +8,9 @@ public class BinarySearch {
      BinarySearch hey = new BinarySearch();
       // Used to find target number
   
-      for (int num : hi.getSortedNumbers()) {
+      for (int num : array) {
   
-        int resNum = hey.binarySearch(hi.getSortedNumbers(), array );
+        int resNum = hey.binarySearch(hi.getSortedNumbers(), num );
         if (resNum == -1) {
           System.out.println("The number " + num + " was not found in" + resNum + " in the array");
         } else {
