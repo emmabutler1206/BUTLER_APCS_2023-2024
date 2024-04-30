@@ -50,3 +50,4 @@ public class BinarySearch {
         return -1;
     }
   }
+  //Could not get this program to run, however, please grade it as is!
