@@ -51,3 +51,12 @@ public class BinarySearch {
     }
   }
   //Could not get this program to run, however, please grade it as is!
+
+/*
+
+1/3 - Compile/Content
+-So it goes.
+1/1 - Formatting
+1/1 - Comments
+
+*/
