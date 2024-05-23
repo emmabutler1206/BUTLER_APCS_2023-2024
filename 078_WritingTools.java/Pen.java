@@ -42,10 +42,6 @@ public class Pen extends WritingTools
       this.inkThickness = "thick";
     }
 
-
-
-  
-
     public String toString() 
     {
         return "The length of the pen" + " " +  super.getLengthInInches();
