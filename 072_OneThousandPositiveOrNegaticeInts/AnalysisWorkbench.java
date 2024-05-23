@@ -16,8 +16,8 @@ public class AnalysisWorkbench {
 
 /*
 
-1/3 - Compile/Content
--Keep going.
+2/3 - Compile/Content
+-Better, but doesn't compile.
 1/1 - Formatting
 1/1 - Comments
 
